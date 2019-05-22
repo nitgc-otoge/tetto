@@ -1,6 +1,7 @@
 <template lang="pug">
-  h2 home
-  router-link(to="/about") to About
+  div
+    h2 home
+    router-link(to="/about") to About
 </template>
 
 <script>

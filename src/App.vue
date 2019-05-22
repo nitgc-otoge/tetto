@@ -1,6 +1,7 @@
 <template lang="pug">
-  h1 tetto
-  router-view
+  div
+    h1 tetto
+    router-view
 </template>
 
 <script>
