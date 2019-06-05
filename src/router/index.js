@@ -3,15 +3,16 @@ import VueRouter from 'vue-router'
 
 import Home from '../pages/Home.vue'
 import About from '../pages/About.vue'
+import Teaser from '../pages/Teaser.vue'
 
 Vue.use(VueRouter)
 
 const router = new VueRouter({
   routes: [
     {
-      name: 'home',
+      name: 'teaser',
       path: '/',
-      component: Home
+      component: Teaser
     },
     {
       name: 'about',

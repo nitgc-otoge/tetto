@@ -1,5 +1,5 @@
 <template lang="pug">
-  div
+  .container
     h2 home
     router-link(to="/about") to About
 </template>

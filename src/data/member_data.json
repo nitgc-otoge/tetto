@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "snowsphere",
+    "icon": "./img/icon/snowsphere.png"
+  },
+  {
+    "id": 2,
+    "name": "TNT1964",
+    "icon": "./img/icon/snowsphere.png"
+  },
+  {
+    "id": 3,
+    "name": "maki",
+    "icon": "./img/icon/maki.png"
+  },
+  {
+    "id": 4,
+    "name": "hako",
+    "icon": "./img/icon/snowsphere.png"
+  },
+  {
+    "id": 5,
+    "name": "DENEB",
+    "icon": "./img/icon/deneb.png"
+  },
+  {
+    "id": 6,
+    "name": "Basso",
+    "icon": "./img/icon/basso.png"
+  }
+]
