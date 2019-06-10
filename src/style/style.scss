@@ -17,15 +17,24 @@ body{
   background-image: url('./img/header_.jpg');
   background-size: cover;
   background-attachment: scroll;
+
+  animation: hue 5s infinite linear;
   
   .team-header{
     padding: 0 10vw;
+    margin: 5vw 0;
+    
+    .jumbo-team-name, .jumbo-team-subtitle{
+      background: linear-gradient(45deg, #c6c6f880, #ff7b9180);
+      animation: hue 5s infinite linear;
+    }
 
     .jumbo-team-name{
       background-color: #222222c0;
 
       font-size: 5em;
     }
+    
     .jumbo-team-subtitle{
       background-color: #222222c0;
 
@@ -40,6 +49,10 @@ body{
 
 .container{
   margin: 20px 10%;
+  padding: 10px;
+  background-color: #333;
+  border-top-left-radius: 10px; 
+  border-top-right-radius: 10px;
 
   h3.content-title{
     text-align: center;
@@ -56,6 +69,7 @@ body{
 
   ul.member-list{
     list-style: none;
+    padding: 0;
     
     li.member-list-item{
       display: inline-block;
@@ -87,3 +101,53 @@ body{
   }
 }
 
+@media screen and (min-width: 1200px){
+
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px){
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px){
+
+}
+
+@media screen and (max-width: 600px){
+  .header{
+    .team-header{
+      
+      .jumbo-team-name{
+        font-size: 1.8em;
+      }
+
+      .jumbo-team-subtitle{
+        font-size: 1.5em;
+      }
+    }
+  }
+
+  .container{
+    margin: 5%;
+
+    h3.content-title{
+      font-size: 1.8em;
+    }
+
+    ul.member-list{
+      li.member-list-item{
+        width: 96%;
+      }
+    }
+  }
+}
+
+@keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}

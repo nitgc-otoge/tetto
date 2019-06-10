@@ -1,6 +1,6 @@
 <template lang="pug">
   .container
-    h2 home
+    h3.content-title 
     router-link(to="/about") to About
 </template>
 

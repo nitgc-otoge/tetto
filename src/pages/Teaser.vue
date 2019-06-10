@@ -1,11 +1,11 @@
 <template lang="pug">
   .container
-    h3.content-title Commitment
+    h3.content-title 公約
     p.description あらゆる音を伝播させる鉄塔のようにあなたの心に響く曲の数々を提供します。
       br 
       | あなたが聴くのは無骨で飾り気がなく、しかし確かに寄り添う夜景のようなメロディー...。
     .team-member-list
-      h3.content-title Starring
+      h3.content-title 党員
       ul.member-list
         MemberList(
           v-for="item in members"
