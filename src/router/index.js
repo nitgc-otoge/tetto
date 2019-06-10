@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 import Home from '../pages/Home.vue'
-import About from '../pages/About.vue'
+import Music from '../pages/Music.vue'
 import Teaser from '../pages/Teaser.vue'
 
 Vue.use(VueRouter)
@@ -15,9 +15,9 @@ const router = new VueRouter({
       component: Teaser
     },
     {
-      name: 'about',
-      path: '/about',
-      component: About
+      name: 'music',
+      path: '/music',
+      component: Music
     },
   ]
 })

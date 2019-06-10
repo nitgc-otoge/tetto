@@ -57,8 +57,7 @@ body{
   h3.content-title{
     text-align: center;
     font-size: 2.5em;
-    font-weight: 300;
-    font-style: italic;
+    font-weight: 700;
   }
 
   p.description{
@@ -96,6 +95,24 @@ body{
           font-size: 1.2em;
           font-weight: 400;
         }
+      }
+    }
+  }
+
+  .music-list{
+
+    .music-list-item{
+      margin: 1% 5%;
+      padding: 20px;
+      border: solid 1px #ccc;
+
+      .music-item-genre, .music-item-artist{
+        font-size: 1.2em;
+      }
+
+      .music-item-name{
+        font-size: 1.5em;
+        font-weight: 700;
       }
     }
   }
