@@ -1,18 +1,25 @@
 <template lang="pug">
   .container
     h3.content-title 公約
-    p.description あらゆる音を伝播させる鉄塔のようにあなたの心に響く曲の数々を提供します。
-      br 
-      | あなたが聴くのは無骨で飾り気がなく、しかし確かに寄り添う夜景のようなメロディー...。
+    .content
+      p.highlight あらゆる音を伝播させる鉄塔のように
+        br 
+        | あなたの心に響く曲の数々を提供します
+        br
+        br
+        | あなたが聴くのは無骨で飾り気がなく
+        br
+        | しかし確かに寄り添う夜景のようなメロディー
     .team-member-list
       h3.content-title 党員
-      ul.member-list
-        MemberList(
-          v-for="item in members"
-          v-bind:name="item.name"
-          v-bind:icon="item.icon"
-          :key="item.key"
-        )
+      .content
+        ul.member-list
+          MemberList(
+            v-for="item in members"
+            v-bind:name="item.name"
+            v-bind:icon="item.icon"
+            :key="item.key"
+          )
 </template>
 
 <script>
