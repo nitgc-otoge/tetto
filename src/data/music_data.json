@@ -1,20 +1,35 @@
 [
   {
-    "id": "1",
-    "genre": "WATER TECHNO",
-    "name": "Fluctuation",
-    "artist": "rost"
+    "id": 1,
+    "genre": null,
+    "name": null,
+    "artist": "Basso"
   },
   {
-    "id": "2",
-    "genre": "WATER TECHNO",
-    "name": "Fluctuation",
-    "artist": "rost"
+    "id": 2,
+    "genre": "PARTY",
+    "name": null,
+    "artist": "DENEB"
   },
   {
-    "id": "3",
-    "genre": "WATER TECHNO",
+    "id": 3,
+    "genre": "FUTURE BASS",
+    "name": "Surface",
+    "artist": "hako",
+    "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/637467126&color=%23040404&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+  },
+  {
+    "id": 4,
+    "genre": "DUB STEP",
+    "name": null,
+    "artist": "maki"
+  },
+  {
+    "id": 5,
+    "genre": "TECHNO",
     "name": "Fluctuation",
-    "artist": "rost"
+    "artist": "Electro Controller",
+    "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/635567031&color=%23b393d9&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
   }
+  
 ]

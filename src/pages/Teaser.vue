@@ -11,7 +11,7 @@
         br
         | しかし確かに寄り添う夜景のようなメロディー
     .team-member-list
-      h3.content-title 党員
+      h3.content-title 候補
       .content
         ul.member-list
           MemberList(
@@ -34,7 +34,7 @@ export default {
   },
   data() {
     return {
-      members: member_data
+      members: member_data.candidate
     }
   }
 }

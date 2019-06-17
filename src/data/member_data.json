@@ -1,32 +1,60 @@
-[
-  {
-    "id": 1,
-    "name": "snowsphere",
-    "icon": "./img/icon/snowsphere.png"
-  },
-  {
-    "id": 2,
-    "name": "TNT1964",
-    "icon": "./img/icon/snowsphere.png"
-  },
-  {
-    "id": 3,
-    "name": "maki",
-    "icon": "./img/icon/maki.png"
-  },
-  {
-    "id": 4,
-    "name": "hako",
-    "icon": "./img/icon/snowsphere.png"
-  },
-  {
-    "id": 5,
-    "name": "DENEB",
-    "icon": "./img/icon/deneb.png"
-  },
-  {
-    "id": 6,
-    "name": "Basso",
-    "icon": "./img/icon/basso.png"
-  }
-]
+{
+  "candidate":[
+    {
+      "id": 1,
+      "name": "Basso",
+      "icon": "./img/icon/basso.png"
+    },
+    {
+      "id": 2,
+      "name": "DENEB",
+      "icon": "./img/icon/deneb.png"
+    },
+    {
+      "id": 3,
+      "name": "hako",
+      "icon": "./img/icon/hako.jpg"
+    },
+    {
+      "id": 4,
+      "name": "maki",
+      "icon": "./img/icon/maki.png"
+    },
+    {
+      "id": 5,
+      "name": "snowsphere",
+      "icon": "./img/icon/snowsphere.png"
+    }
+  ],
+  "support":[
+    {
+      "id": 1,
+      "name": "akom",
+      "job": "Score"
+    },
+    {
+      "id": 2,
+      "name": "Asagi_46neko",
+      "job": "Movie",
+      "icon": "./img/icon/asagi.png"
+    },
+    {
+      "id": 3,
+      "name": "junT58",
+      "job": "Web",
+      "icon": "./img/icon/jun.png"
+    },
+    {
+      "id": 4,
+      "name": "rokuYa",
+      "job": "Voice",
+      "icon": "./img/icon/rokuya.png"
+    },
+    {
+      "id": 5,
+      "name": "TNT1964",
+      "job": "Lyric",
+      "icon": "./img/icon/tnt.png"
+    }
+  ]
+}
