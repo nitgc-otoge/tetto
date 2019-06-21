@@ -10,21 +10,24 @@ body{
   color: #eee!important;
 }
 
+.text-center{
+  text-align: center;
+}
+
 .header{
   z-index: 0;
   padding: 10px;
   height: 70vh;
 
   background-image: url('./img/header_.jpg');
-  background-size: cover;
-  background-attachment: scroll;
+  background-size: 100vw;
+  background-attachment: fixed;
 
   animation: hue2 5s infinite cubic-bezier(0.42, 0.17, 0.38, 1.42);
   
   .team-header{
     padding: 0 10vw;
-    margin: 5vw 0;
-
+    margin-top: 5vw;
     text-align: right;
 
     .jumbo-team-name{
@@ -45,6 +48,30 @@ body{
       animation: hue 4s infinite linear;
 
       font-size: 2.5em;
+    }
+  }
+
+  .navigation{
+    padding: 0 10vw;
+    margin: 1vw 0;
+    text-align: right;
+
+    a.navi-item{
+      font-size: 1.5em;
+      font-weight: 700;
+      font-style: italic;
+      padding: 10px;
+      background-color: #000000aa;
+      color: #ccc;
+
+      animation: none;
+    }
+
+    a.navi-item:hover{
+      background: linear-gradient(45deg, #9292f5, #fa68a5);
+      animation: hue 2s infinite linear;
+      transition-duration: 1s;
+      text-decoration: none;
     }
   }
 }
@@ -68,9 +95,18 @@ body{
     text-align: center;
     font-size: 2.5em;
     font-weight: 700;
+    font-style: italic;
     padding: 10px 0;
     margin-bottom: 20px;
     border-bottom: solid 1px #ffffff40;
+  }
+
+  h4.sub-title{
+    font-size: 1.4em;
+    margin: 1% 0;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
   }
 
   p.description{
@@ -80,15 +116,37 @@ body{
   }
 
   p.highlight{
-    width: 60%;
-    margin: 10px 20%;
+    margin: 1.5%;
     padding: 20px;
 
+    font-family: 'Noto Serif JP';
     text-align: center;
     font-size: 1.2em;
-    font-weight: 300;
+    font-weight: 400;
 
     background-color: #111;
+  }
+
+  a.link-btn.gotovenue{
+    display: inline-block;
+    margin: 1.5%;
+    padding: 15px 30px;
+    border: solid 1px #eee;
+    background-color: #fa68a5;
+
+    animation: hue-big 2s infinite linear;
+    
+    color: #000;
+    font-weight: 700;
+    font-size: 1.5em;
+    font-style: italic;
+  }
+
+  a.link-btn.gotovenue:hover{
+    background-color: #eee;
+    color: #222;
+    transition-duration: 1s;
+    text-decoration: none;
   }
 
   ul.member-list{
@@ -106,8 +164,9 @@ body{
       img.member-list-icon{
         display: inline-block;
         width:75px;
+        margin-right: 20px;
 
-        background-color: #000;
+        background-color: #fff;
         box-shadow: #000 0 0 1px 2px;
 
         // border-radius: 40px;
@@ -118,9 +177,7 @@ body{
         vertical-align: middle;
         
         .member-list-name{
-          margin: 0 20px;
-
-          font-size: 1.8em;
+          font-size: 1.5em;
           font-style: italic;
           font-weight: 700;
         }
@@ -131,12 +188,28 @@ body{
   .music-list{
 
     .music-list-item{
-      margin: 1% 5%;
+      margin: 2.5% 5%;
       padding: 20px;
       border: solid 1px #ccc;
 
+      span.music-item-split{
+        margin: 0 10px;
+      }
+
       .music-item-genre, .music-item-artist{
         font-size: 1.2em;
+      }
+
+      .music-item-name, .music-item-artist{
+        display: inline-block;
+      }
+
+      .music-item-genre{
+        width: 150px;
+        background-color: #555;
+        color: #eee;
+        margin-bottom: 10px;
+        padding: 5px;
       }
 
       .music-item-name{
@@ -161,6 +234,8 @@ body{
 
 @media screen and (max-width: 600px){
   .header{
+    height: 50vh;
+
     .team-header{
       
       .jumbo-team-name{
@@ -215,4 +290,29 @@ body{
   to {
     -webkit-filter: hue-rotate(0deg);
   }
+}
+
+@keyframes hue-big {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  50% {
+    -webkit-filter: hue-rotate(-180deg);
+  }
+
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
+::-webkit-scrollbar{
+  width: 15px;
+}
+::-webkit-scrollbar-track{
+  background: #111;
+}
+::-webkit-scrollbar-thumb{
+  background: #ddd;
+  box-shadow: inset 0 0 0 2px #111;
 }
