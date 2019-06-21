@@ -1,6 +1,6 @@
 <template lang="pug">
   .container
-    h3.content-title 候補一覧
+    h3.content-title Music
     .music-list
       MusicItem(
         v-for="item in musics"

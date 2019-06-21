@@ -3,6 +3,8 @@ import VueRouter from 'vue-router'
 
 import Home from '../pages/Home.vue'
 import Music from '../pages/Music.vue'
+import Credit from '../pages/Credit.vue'
+import { createBrotliDecompress } from 'zlib';
 
 Vue.use(VueRouter)
 
@@ -18,6 +20,11 @@ const router = new VueRouter({
       path: '/music',
       component: Music
     },
+    {
+      name: 'credit',
+      path: '/credit',
+      component: Credit
+    }
   ]
 })
 

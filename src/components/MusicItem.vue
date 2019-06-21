@@ -2,9 +2,8 @@
   .music-list-item
     .music-item-genre {{ genre }}
     .music-item-name {{ name }}
+    span.music-item-split by
     .music-item-artist {{ artist }}
-    .music-item-like
-      button.like-btn Like
 </template>
 
 <script>

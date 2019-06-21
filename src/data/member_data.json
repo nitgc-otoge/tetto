@@ -12,7 +12,7 @@
     },
     {
       "id": 3,
-      "name": "hako",
+      "name": "haco",
       "icon": "./img/icon/hako.jpg"
     },
     {
@@ -30,7 +30,8 @@
     {
       "id": 1,
       "name": "akom",
-      "job": "Score"
+      "job": "Score(譜面)",
+      "icon": "./img/icon/akom.png"
     },
     {
       "id": 2,
