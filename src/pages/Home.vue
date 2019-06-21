@@ -1,8 +1,10 @@
 <template lang="pug">
   .container
     h3.content-title Venue
-    .content
+    .content.text-center
       p.description 「第二回 BMS衆議院選」会場はこちら
+        br
+        a.link-btn.gotovenue(href="https://venue.bmssearch.net/bmsshuin2" target="blank") GO TO VENUE
     h3.content-title Commitment
     .content
       p.highlight あらゆる音を伝播させる鉄塔のように

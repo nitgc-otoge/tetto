@@ -37,13 +37,13 @@
       "id": 2,
       "name": "Asagi_46neko",
       "job": "Movie",
-      "icon": "./img/icon/asagi.png"
+      "icon": "./img/icon/asagi.jpg"
     },
     {
       "id": 3,
       "name": "junT58",
       "job": "Web",
-      "icon": "./img/icon/jun.png"
+      "icon": "./img/icon/jun.jpg"
     },
     {
       "id": 4,
@@ -55,7 +55,7 @@
       "id": 5,
       "name": "TNT1964",
       "job": "Lyric",
-      "icon": "./img/icon/tnt.png"
+      "icon": "./img/icon/tnt.jpg"
     }
   ]
 }
