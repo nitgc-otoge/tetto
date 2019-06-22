@@ -1,13 +1,16 @@
 <template lang="pug">
   .container
     h3.content-title Credit
+      small (A to Z)
     .content
       h4.sub-title Candidates
       ul.member-list
         MemberList(
           v-for="item in members_candidates"
           v-bind:name="item.name"
-          v-bind:icon="item.icon"
+          v-bind:icon="item.icon"          
+          v-bind:twitterId="item.twitter"
+          v-bind:scId="item.sc"
           :key="item.key"
         )
       h4.sub-title Support Members
@@ -17,6 +20,7 @@
           v-bind:name="item.name"
           v-bind:job="item.job"
           v-bind:icon="item.icon"
+          v-bind:twitterId="item.twitter"
           :key="item.key"
         )
 </template>

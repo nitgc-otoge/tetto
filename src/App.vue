@@ -5,7 +5,8 @@
         h3.jumbo-team-subtitle 音楽を、その手に。
         h2.jumbo-team-name 鉄党
       Navigation
-    router-view
+    transition(mode="out-in" enter-active-class="fadeIn" leave-active-class="fadeOut")
+      router-view
 </template>
 
 <script>

@@ -13,7 +13,9 @@
     {
       "id": 3,
       "name": "haco",
-      "icon": "./img/icon/hako.jpg"
+      "icon": "./img/icon/hako.jpg",
+      "twitter": "AGchanger",
+      "sc": "edbrlsfvd5mm"
     },
     {
       "id": 4,
@@ -23,14 +25,16 @@
     {
       "id": 5,
       "name": "snowsphere",
-      "icon": "./img/icon/snowsphere.png"
+      "icon": "./img/icon/snowsphere.png",
+      "twitter": "Prismist_M",
+      "sc": "snowsphere_sc"
     }
   ],
   "support":[
     {
       "id": 1,
       "name": "akom",
-      "job": "Score(譜面)",
+      "job": "Score",
       "icon": "./img/icon/akom.png"
     },
     {
