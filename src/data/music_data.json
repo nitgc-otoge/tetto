@@ -9,7 +9,8 @@
     "id": 2,
     "genre": "PARTY",
     "name": "開き直ってパーティしようぜ！",
-    "artist": "DENEB"
+    "artist": "DENEB",
+    "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/640780611&color=%2364c6de&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
   },
   {
     "id": 3,

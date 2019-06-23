@@ -2,19 +2,15 @@
   .container
     h3.content-title Venue
     .content.text-center
-      p.description 「第二回 BMS衆議院選」会場はこちら
+      p.description 「第二回 BMS衆議院選」
+        br
+        | 会場はこちら
         br
         a.link-btn.gotovenue(href="https://venue.bmssearch.net/bmsshuin2" target="blank") GO TO VENUE
     h3.content-title Commitment
     .content
-      p.highlight あらゆる音を伝播させる鉄塔のように
-        br 
-        | あなたの心に響く曲の数々を提供します
-        br
-        br
-        | あなたが聴くのは無骨で飾り気がなく
-        br
-        | しかし確かに寄り添う夜景のようなメロディー...
+      p.highlight あらゆる音を伝播させる鉄塔のようにあなたの心に響く曲の数々を提供します
+      p.highlight あなたが聴くのは無骨で飾り気がなくしかし確かに寄り添う夜景のようなメロディー...
     .team-member-list
       h3.content-title Candidates
         small (A to Z)
