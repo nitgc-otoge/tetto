@@ -1,11 +1,11 @@
 <template lang="pug">
-  .music-list-item
+  .music-list-item(v-if="embed")
     .music-item-genre {{ genre }}
     .music-item-name {{ name }}
     .music-item-artist 
       span.music-item-split by
       | {{ artist }}
-    .music-item-embed(v-if="embed")
+    .music-item-embed
       iframe(
         width="100%"
         height="166"

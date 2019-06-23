@@ -196,7 +196,7 @@ small{
 
         .member-list-job{
           display: inline-block;
-          margin-left: 10px;
+          margin-right: 10px;
         }
       }
 
@@ -262,6 +262,10 @@ small{
         font-size: 1.5em;
         font-weight: 700;
       }
+
+      .music-item-embed{
+        margin: 20px;
+      }
     }
   }
 }
@@ -306,7 +310,7 @@ small{
 
 @media screen and (min-width: 600px) and (max-width: 900px){
   .header{
-    height: 40vh;
+    height: 45vh;
 
     .team-header{
       
@@ -339,7 +343,7 @@ small{
 
 @media screen and (min-width: 400px) and (max-width: 600px){
   .header{
-    height: 40vh;
+    height: 55vh;
     background-image: url('./img/');
 
     .team-header{
