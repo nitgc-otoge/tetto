@@ -206,16 +206,16 @@ small{
         margin: 0 5px;
         color: #eee;
         font-size: 20px;
+        transition: all 300ms 0s ease;
       }
 
       a.link-icon-twitter:hover{
         color: #55acee;
-        transition-duration: 1s;
+        
       }
 
       a.link-icon-sc:hover{
         color: #ff7700;
-        transition-duration: 1s;
       }
     }
   }

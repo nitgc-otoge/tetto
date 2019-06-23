@@ -3,7 +3,9 @@
     {
       "id": 1,
       "name": "Basso",
-      "icon": "./img/icon/basso.png"
+      "icon": "./img/icon/basso.png",
+      "twitter": "torimuneman",
+      "sc": "torimune"
     },
     {
       "id": 2,
@@ -20,7 +22,8 @@
     {
       "id": 4,
       "name": "maki",
-      "icon": "./img/icon/maki.png"
+      "icon": "./img/icon/maki.png",
+      "twitter": "rurikame"
     },
     {
       "id": 5,
@@ -47,13 +50,15 @@
       "id": 3,
       "name": "junT58",
       "job": "Web",
-      "icon": "./img/icon/jun.jpg"
+      "icon": "./img/icon/jun.jpg",
+      "twitter": "junT58"
     },
     {
       "id": 4,
       "name": "rokuYa",
       "job": "Voice",
-      "icon": "./img/icon/rokuya.png"
+      "icon": "./img/icon/rokuya.png",
+      "twitter": "rokuYa_Tetuki68"
     },
     {
       "id": 5,
