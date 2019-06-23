@@ -7,6 +7,7 @@
         v-bind:name="item.name"
         v-bind:genre="item.genre"
         v-bind:artist="item.artist"
+        v-bind:embed="item.embed"
         :key="item.key"
       )
 </template>
