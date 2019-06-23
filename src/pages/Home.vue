@@ -16,7 +16,8 @@
         br
         | しかし確かに寄り添う夜景のようなメロディー...
     .team-member-list
-      h3.content-title Candidate
+      h3.content-title Candidates
+        small (A to Z)
       .content
         ul.member-list
           MemberList(
